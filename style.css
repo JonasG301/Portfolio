@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Droid+Sans+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
 
-html {
-    scroll-behavior: smooth;
-}
+
 
 body {
     margin: 0;
@@ -349,3 +347,35 @@ svg {
     margin: auto;
   }
   /*END ContactButton*/
+
+
+@media (max-width: 700px) {
+    
+        body .timeline .event{
+            width: 80%; /* Reduziert die Breite auf 80% */
+        font-size: 0.8rem; /* Reduziert die Schriftgröße */
+        padding: 10px;
+        }
+    
+        .event {
+            width: 80%; /* Breite des Events anpassen */
+            padding: 20px;
+            border: 2px solid #D62828;
+            background-color: white;
+            border-radius: 20px;
+            box-sizing: border-box;
+            position: relative; /* Position auf relative setzen */
+        }
+        
+        /* Positionierung anpassen */
+        .event:nth-child(even) {
+            text-align: left;
+            margin-left: 30px; /* Linken Rand anpassen */
+        }
+        
+        .event:nth-child(odd) {
+            text-align: left;
+            margin-left: 30px; /* Linken Rand anpassen */
+        }
+        
+}
