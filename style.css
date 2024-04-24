@@ -79,6 +79,14 @@ li {
     font-weight: bold;
 }
 
+.textProject {
+    color: black;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    font-weight: bold;
+}
+
 .gitLink:hover {
     box-shadow: inset 150px 0 0 0 #003049;
     color: #D62828;
@@ -144,6 +152,15 @@ li {
 
 
 /*BEGIN Logo*/
+.gitText {
+    font-size: 20px;
+    color: white;
+}
+.GITLogo {
+    transform: rotate(-90deg);
+    width: 70px;
+    height: auto;
+}
 .javaLogo {
     transform: rotate(-90deg);
     width: 40px;
